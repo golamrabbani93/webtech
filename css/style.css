@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap");
 body {
 	font-family: "Poppins", sans-serif;
+	font-weight: 400;
 }
 
 /*
@@ -38,3 +39,17 @@ body {
 /*
  *Common Styles End
  */
+
+/*
+  *carousel
+  */
+
+.carousel-caption {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -16%);
+}
+.carousel-item {
+	height: 80vh;
+}
