@@ -71,6 +71,9 @@ body {
 	.carousel-item {
 		height: auto;
 	}
+	.Ready-to-join-text {
+		width: 100% !important;
+	}
 }
 @media (max-width: 768px) {
 	.font-65 {
@@ -79,6 +82,10 @@ body {
 	}
 	.font-18 {
 		font-size: 12px;
+	}
+	.course-thumbnail img {
+		width: 100%;
+		height: 220px;
 	}
 }
 @media (max-width: 480px) {
@@ -98,7 +105,7 @@ body {
 		height: auto;
 	}
 	.course-thumbnail img {
-		width: 335px;
+		width: 100%;
 		height: 220px;
 	}
 	.carousel-caption {
