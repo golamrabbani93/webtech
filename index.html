@@ -150,7 +150,7 @@
 								<div class="course-thumbnail">
 									<img class="d-block m-auto" src="images/course/course-1.png" alt="" />
 								</div>
-								<div class="course-title ps-md-4 ps-3 pt-3 pt-md-0 pe-md-3"">
+								<div class="course-title ps-md-4 ps-3 pt-3 pt-md-0 pe-md-3">
 									<h3 class="font-23">Fundamental Of UI/UX Design</h3>
 									<p class="text-muted">
 										Some quick example text to build on the card title and make up the bulk of the
@@ -168,7 +168,7 @@
 								<div class="course-thumbnail">
 									<img class="d-block m-auto" src="images/course/course-2.png" alt="" />
 								</div>
-								<div class="course-title ps-md-4 ps-3 pt-3 pt-md-0 pe-md-3"">
+								<div class="course-title ps-md-4 ps-3 pt-3 pt-md-0 pe-md-3">
 									<h3 class="font-23">Javascript Basic to advanced</h3>
 									<p class="text-muted">
 										Some quick example text to build on the card title and make up the bulk of the
@@ -186,7 +186,7 @@
 								<div class="course-thumbnail">
 									<img class="d-block m-auto" src="images/course/course-3.png" alt="" />
 								</div>
-								<div class="course-title ps-md-4 ps-3 pt-3 pt-md-0 pe-md-3"">
+								<div class="course-title ps-md-4 ps-3 pt-3 pt-md-0 pe-md-3">
 									<h3 class="font-23">Fullstack Web Development</h3>
 									<p class="text-muted">
 										Some quick example text to build on the card title and make up the bulk of the
@@ -204,7 +204,7 @@
 								<div class="course-thumbnail">
 									<img class="d-block m-auto" src="images/course/course-4.png" alt="" />
 								</div>
-								<div class="course-title ps-md-4 ps-3 pt-3 pt-md-0 pe-md-3"">
+								<div class="course-title ps-md-4 ps-3 pt-3 pt-md-0 pe-md-3">
 									<h3 class="font-23">Digital Marketing</h3>
 									<p class="text-muted">
 										Some quick example text to build on the card title and make up the bulk of the
@@ -222,7 +222,7 @@
 								<div class="course-thumbnail">
 									<img class="d-block m-auto" src="images/course/course-5.png" alt="" />
 								</div>
-								<div class="course-title ps-md-4 ps-3 pt-3 pt-md-0 pe-md-3"">
+								<div class="course-title ps-md-4 ps-3 pt-3 pt-md-0 pe-md-3">
 									<h3 class="font-23">Photography Basic Rules</h3>
 									<p class="text-muted">
 										Some quick example text to build on the card title and make up the bulk of the
@@ -258,20 +258,60 @@
 
 			<!--* Ready To Join Section Start -->
 			<section class="Ready-to-join bg-primary text-white mt-5">
-				<div class="container d-lg-flex justify-content-between p-5 align-items-center text-center text-lg-start">
-					<div class="Ready-to-join-text w-50 ">
-						<h2 class="font-45">
-							Ready to join?
-						</h2>
+				<div
+					class="container d-lg-flex justify-content-between p-5 align-items-center text-center text-lg-start"
+				>
+					<div class="Ready-to-join-text w-50">
+						<h2 class="font-45">Ready to join?</h2>
 						<p class="pt-3">
-							It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+							It is a long established fact that a reader will be distracted by the readable content
+							of a page when looking at its layout.
 						</p>
 					</div>
 					<div class="Ready-to-join-Button">
-						<button class="btn bg-white text-primary fw-bold">Register Now</button>
+						<button
+							type="button"
+							class="btn bg-white text-primary fw-bold"
+							data-bs-toggle="modal"
+							data-bs-target="#exampleModal"
+						>
+							Register Now
+						</button>
+					</div>
+					<!--* Modal -->
+
+					<div
+						class="modal fade"
+						id="exampleModal"
+						tabindex="-1"
+						aria-labelledby="exampleModalLabel"
+						aria-hidden="true"
+					>
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel"></h5>
+									<button
+										type="button"
+										class="btn-close"
+										data-bs-dismiss="modal"
+										aria-label="Close"
+									></button>
+								</div>
+								<div class="modal-body text-dark font-23">
+									If you’ve made it this far, you must be at least a little curious. Sign up and
+									take the first step toward your goals.
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+										Close
+									</button>
+									<button type="button" class="btn btn-primary">Save changes</button>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-
 			</section>
 			<!--* Ready To Join Section End -->
 		</main>
