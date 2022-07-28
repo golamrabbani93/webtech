@@ -47,10 +47,64 @@ body {
 
 .carousel-caption {
 	position: absolute;
-	top: 40%;
+	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -16%);
+	transform: translate(-50%, -50%);
 }
 .carousel-item {
 	height: 80vh;
+}
+@media (max-width: 998px) {
+	.font-65 {
+		font-size: 30px;
+		font-weight: 600;
+	}
+	.font-18 {
+		font-size: 14px;
+	}
+	.carousel-caption {
+		position: absolute;
+		top: 44%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.carousel-item {
+		height: auto;
+	}
+}
+@media (max-width: 768px) {
+	.font-65 {
+		font-size: 20px;
+		font-weight: 600;
+	}
+	.font-18 {
+		font-size: 12px;
+	}
+}
+@media (max-width: 480px) {
+	.font-65 {
+		font-size: 16px;
+	}
+	.font-45 {
+		font-size: 20px;
+	}
+	.font-20 {
+		font-size: 12px;
+	}
+	.font-18 {
+		font-size: 8px;
+	}
+	.carousel-item {
+		height: auto;
+	}
+	.course-thumbnail img {
+		width: 335px;
+		height: 220px;
+	}
+	.carousel-caption {
+		position: absolute;
+		top: 48%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
 }
