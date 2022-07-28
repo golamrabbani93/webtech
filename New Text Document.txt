@@ -1,0 +1,5 @@
+<!--* Frequently Asked Questions Start -->
+			<section class="faq">
+				<div class="container"></div>
+			</section>
+			<!--* Frequently Asked Questions End -->
